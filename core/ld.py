@@ -608,16 +608,6 @@ schemas = {
             },
         },
     },
-    "purl.org/wytchspace/ns/ap/1.0": {
-        "contentType": "application/ld+json",
-        "documentUrl": "https://purl.org/wytchspace/ns/ap/1.0",
-        "contextUrl": None,
-        "document": {
-            "@context": {
-                "wytch": "https://ns.wytch.space/ap/1.0.jsonld",
-            },
-        },
-    },
 }
 
 DATETIME_FORMAT = "%Y-%m-%dT%H:%M:%S.Z"

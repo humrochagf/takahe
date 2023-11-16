@@ -30,6 +30,9 @@ class TimelineService:
             "subject_post_interaction",
             "subject_post_interaction__identity",
             "subject_post_interaction__identity__domain",
+            "subject_post_interaction__post",
+            "subject_post_interaction__post__author",
+            "subject_post_interaction__post__author__domain",
         ).prefetch_related(
             "subject_post__attachments",
             "subject_post__mentions",
